@@ -1,0 +1,18 @@
+.ratio {
+  position:relative;
+  display:block;
+}
+
+.ratio:before {
+  content:'';
+  display:block;
+  padding-bottom: 60%;
+}
+
+.ratio__content {
+  position: absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:auto;
+}
